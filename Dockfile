@@ -7,7 +7,7 @@ $sudo docker pull sonnyyu/jcshell:latest
 ```bash
 $git clone https://github.com/usasmartcard/Docker_Globalplatform/
 $cd Docker_Globalplatform
-$sudo docker build . -t sonnyyu/globalplatform
+$sudo docker build . -t sonnyyu/jcshell
 ```
 ### Stop pcscd service at Host Machine
 ```bash
@@ -16,7 +16,7 @@ $sudo systemctl stop pcscd pcscd.socket
 ```
 ## Quick Start
 ```bash
-$sudo docker run -ti --rm  --device /dev/bus/usb sonnyyu/globalplatform
+$sudo docker run -ti --rm  --device /dev/bus/usb sonnyyu/jcshell
 ```
 ## Test Reader & Card
 ```bash
