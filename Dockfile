@@ -5,8 +5,8 @@ $sudo docker pull sonnyyu/jcshell:latest
 ```
 ### Building the Docker image locally
 ```bash
-$git clone https://github.com/usasmartcard/Docker_Globalplatform/
-$cd Docker_Globalplatform
+$git clone https://github.com/usasmartcard/Docker_JCShell
+$cd Docker_JCShell
 $sudo docker build . -t sonnyyu/jcshell
 ```
 ### Stop pcscd service at Host Machine
