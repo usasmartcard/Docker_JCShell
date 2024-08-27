@@ -1,4 +1,4 @@
-# Docker for GlobalPlatformPro
+# Docker for JCShell
 ### Pulling from the Docker Hub
 ```bash
 $sudo docker pull sonnyyu/globalplatform:latest
