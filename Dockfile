@@ -1,7 +1,7 @@
 # Docker for JCShell
 ### Pulling from the Docker Hub
 ```bash
-$sudo docker pull sonnyyu/globalplatform:latest
+$sudo docker pull sonnyyu/jcshell:latest
 ```
 ### Building the Docker image locally
 ```bash
